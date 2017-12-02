@@ -1,0 +1,77 @@
+.start {
+background-image: url('https://pp.userapi.com/c620522/v620522784/9815/g7DScd7FzT0.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+width: 1600px;
+font-family: cursive;
+max-height: 900px;
+font-size: 18px;
+}
+.firstblock{
+float: left;
+padding-top: 50px;
+padding-left: 40px;
+color: black;
+}
+.secondblock{
+padding-top: 2px;
+color: black;
+item-align: center;
+}
+fieldset{
+width: 300px;
+height: 120px;
+}
+td {
+border: 1px solid grey;
+align-items: center;
+text-align: center;
+}
+A:visited {
+color: black;
+}
+A:hover{
+color: blue;
+}
+.index{
+background-image: url('https://pp.userapi.com/c630731/v630731518/24210/bxetXn53O4U.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+width: 1600;
+height: auto;
+font-family: cursive;
+font-size: 18px;
+}
+.kitesurfing{
+background-image: url('https://pp.userapi.com/c622925/v622925784/2f593/ORW1Yh-iGtk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1600;
+  height: auto;
+  font-family: cursive;
+  font-size: 18px;
+}
+.spoiler >  input + .box {
+	display: none;
+}
+.spoiler >  input:checked + .box {
+	display: block;
+}
+
+.spoiler {
+padding: 30px;
+}
+.land {
+  background-image: url('https://pp.userapi.com/c616526/v616526784/a30f/xAi1xkOQbeI.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600;
+    height: auto;
+    font-family: cursive;
+    font-size: 18px;
+}
+ol {
+list-style-type: square;
+margin-left: 55px;
+margin-top: 25px;
+}
