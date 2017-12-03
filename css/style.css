@@ -34,7 +34,7 @@ A:hover{
 color: blue;
 }
 .index{
-background-image: url('/jpeg/index.jpg');
+background-image: url('/jpeg/index.jpeg');
 background-size: cover;
 background-repeat: no-repeat;
 width: 1600;
@@ -43,7 +43,7 @@ font-family: cursive;
 font-size: 18px;
 }
 .kitesurfing{
-background-image: url('/jpeg/index2.jpg');
+background-image: url('/jpeg/index2.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 1600;
@@ -62,7 +62,7 @@ background-image: url('/jpeg/index2.jpg');
 padding: 30px;
 }
 .land {
-  background-image: url('/jpeg/index3.jpg');
+  background-image: url('/jpeg/index3.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 1600;
