@@ -48,6 +48,7 @@ background-image: url('/jpeg/index2.jpeg');
   background-repeat: no-repeat;
   width: 1600;
   height: auto;
+  min-height: 1000px;
   font-family: cursive;
   font-size: 18px;
 }
@@ -75,3 +76,14 @@ list-style-type: square;
 margin-left: 55px;
 margin-top: 25px;
 }
+.yt {
+  width: 560px;
+   height: 315px;
+}
+.spoiler h2 {
+  float: left;
+}
+.spoiler input {
+  margin-top: 40px;
+}
+
