@@ -2,13 +2,12 @@
 background-image: url('https://pp.userapi.com/c620522/v620522784/9815/g7DScd7FzT0.jpg');
 background-size: cover;
 background-repeat: no-repeat;
-width: 1600px;
+min-height: 1000px;
 font-family: cursive;
-max-height: 900px;
 font-size: 18px;
 }
 .firstblock{
-float: left;
+/*float: left;*/
 padding-top: 50px;
 padding-left: 40px;
 color: black;
@@ -16,6 +15,8 @@ color: black;
 .secondblock{
 /*padding-top: 2px;*/
 color: black;
+padding-top: 50px;
+padding-left: 40px;
 item-align: center;
 }
 fieldset{
@@ -37,8 +38,8 @@ color: blue;
 background-image: url('/jpeg/index.jpeg');
 background-size: cover;
 background-repeat: no-repeat;
-width: 1600;
 height: auto;
+  min-height: 1000px;
 font-family: cursive;
 font-size: 18px;
 }
@@ -46,7 +47,6 @@ font-size: 18px;
 background-image: url('/jpeg/index2.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 1600;
   height: auto;
   min-height: 1000px;
   font-family: cursive;
@@ -66,8 +66,8 @@ padding: 30px;
   background-image: url('/jpeg/index3.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1600;
     height: auto;
+    min-height: 1000px;
     font-family: cursive;
     font-size: 18px;
 }
