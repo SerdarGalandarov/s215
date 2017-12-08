@@ -37,7 +37,7 @@ th {
 	float: left;
 }*/
 .btn-primary {
-margin-left: 77%;
+margin-top: 10px;
 }
 .card-img-top {
 	margin: auto;
@@ -49,4 +49,8 @@ align-items: center;
 .card {
 	text-align: center;
 	margin: auto;
+}
+.kitesoption {
+	overflow-y: auto;
+	width: 100%;
 }
