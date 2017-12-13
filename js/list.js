@@ -1,5 +1,7 @@
-var i; 
-for (i=2004; i<2100; i=i+4) {
-	console.log('number:');
+
+var i = list(i); 
+
+function list(i) {
+	for (i=2000; i<=2100; i=i+4) 
   console.log(i);
 }
