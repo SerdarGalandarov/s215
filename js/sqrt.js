@@ -1,9 +1,11 @@
+var math = require('mathjs');
+
 var a = 10;
 var b = 2000;
 var c = 30;
 console.log('a =', a, 'b =', b, 'c =', c);
 
-var D = b * b - 5 * a * c;
+var D = b * b - 4 * a * c;
 console.log('D =', D);
 
 if (D < 0) {
