@@ -19,9 +19,11 @@
 			alert ('Дай подумать...');
 			var text = document.getElementsByTagName("input")[0];
 			var val = text.value;
-			document.open();
-			document.write(val, ' - ', rand);
-			document.close();
+			var fin = val + '-' +rand;
+			document.getElementById("divfa").innerHTML = fin;
+			// document.open();
+			// document.write(val, ' - ', rand);
+			// document.close();
 		}
 		function pianoDo() {
 			alert('Do')
@@ -35,45 +37,45 @@
 			alert('Mi')
 			document.body.style.background = "red"
 		}
-
-
-// пытаюсь получить данные с инпута 
-		  function inputpiano() {
-			var inputdoremi = document.getElementsById("doremi")[0];
-			var val2 = text.value;
-			if (val2=='д') {pianoDo();}
-			else if (val2=='р') {pianoRe();}
-			else if (val2==м) {pianoMi();}
+		function inputpiano() {
+			var inputdoremi = document.getElementById("doremi");
+			console.log(111, inputdoremi);
+			var val2 = inputdoremi.value;
+			if (val2==='д') {pianoDo();}
+			else if (val2==='р') {pianoRe();}
+			else if (val2==='м') {pianoMi();}
 		}
-
-
-
-</script>
+	</script>
 
 </head>
 <body class="jstest">
 
 	<div class="container">
 		<div class="divimg">
-			<img src="img/8.png" onmouseover="faq()">
+			<img src="/img/8.png" onmouseover="faq()">
 		</div>
 		<div class="divinput">
 			<input type="text" name="">
 		</div>
-		<div class="divbutton">
+		<div class="divbg">
+			<div class="divbutton">
 			<button onclick="faq()">Спросить</button>
 		</div>
+		<div id="divfa">
+		</div>
+
+
 		<div class="divoutput">
 		</div>
 		<div class="piano">
-			<img src="img/do.jpg" onclick="pianoDo()">
-			<img src="img/re.jpg" onclick="pianoRe()">
-			<img src="img/mi.jpg" onclick="pianoMi()">
+			<img src="/img/do.jpg" onclick="pianoDo()">
+			<img src="/img/re.jpg" onclick="pianoRe()">
+			<img src="/img/mi.jpg" onclick="pianoMi()">
 		</div>
-
+	</div>
 
 		<div>
-			Веди ноту <input type="text" id="doremi"> и <button onchange="inputpiano()">нажми</button>
+			Веди ноту <input type="text" id="doremi"> и <button onclick="inputpiano()">нажми</button>
 		</div>
 
 	</div>
