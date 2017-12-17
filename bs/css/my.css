@@ -54,3 +54,9 @@ align-items: center;
 	overflow-y: auto;
 	width: 100%;
 }
+.jstest {
+	text-align: center;
+}
+.piano {
+	margin-top: 50px;
+}

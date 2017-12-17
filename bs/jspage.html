@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>js test</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/my.css">
+
+	<script type="text/javascript">
+
+		function faq() {
+			var faq = ['Совершенно точно', 'Определенно', 'Несомненно', 'Да', 'Можно на это смело рассчитывать', 'Как мне кажется, да', 'Скорее всего', 'Прогноз положительный', 'По всем признакам - да', 'Ответ как-то мутно выглядит, попробуй еще', 'Попробуй позже', 'Тебе сейчас лучше об этом не знать', 'Невозможно сейчас сказать что-то определенное', 'Сосредоточься и спроси меня опять', 'Я бы не стала на это рассчитывать', 'Мой ответ - нет', 'Мои источники все отрицают', 'Прогноз выглядит неутешительно', 'Сомнительно', 'Не мучай меня своими скучными вопросами, пожалуйста'];
+			var rand = faq[Math.floor(Math.random() * faq.length)];
+			console.log(rand);
+			alert ('Дай подумать...');
+			var text = document.getElementsByTagName("input")[0];
+			var val = text.value;
+			document.open();
+			document.write(val, ' - ', rand);
+			document.close();
+		}
+		function pianoDo() {
+			alert('Do')
+			document.body.style.background = "green"
+		}
+		function pianoRe() {
+			alert('Re')
+			document.body.style.background = "yellow"
+		}
+		function pianoMi() {
+			alert('Mi')
+			document.body.style.background = "red"
+		}
+
+
+// пытаюсь получить данные с инпута 
+		  function inputpiano() {
+			var inputdoremi = document.getElementsById("doremi")[0];
+			var val2 = text.value;
+			if (val2=='д') {pianoDo();}
+			else if (val2=='р') {pianoRe();}
+			else if (val2==м) {pianoMi();}
+		}
+
+
+
+</script>
+
+</head>
+<body class="jstest">
+
+	<div class="container">
+		<div class="divimg">
+			<img src="img/8.png" onmouseover="faq()">
+		</div>
+		<div class="divinput">
+			<input type="text" name="">
+		</div>
+		<div class="divbutton">
+			<button onclick="faq()">Спросить</button>
+		</div>
+		<div class="divoutput">
+		</div>
+		<div class="piano">
+			<img src="img/do.jpg" onclick="pianoDo()">
+			<img src="img/re.jpg" onclick="pianoRe()">
+			<img src="img/mi.jpg" onclick="pianoMi()">
+		</div>
+
+
+		<div>
+			Веди ноту <input type="text" id="doremi"> и <button onchange="inputpiano()">нажми</button>
+		</div>
+
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
